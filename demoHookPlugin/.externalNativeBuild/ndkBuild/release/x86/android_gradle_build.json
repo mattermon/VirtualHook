@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "E:\\AndroidStudioProjects\\1_FromGithub\\VirtualHook-master\\VirtualApp\\demoHookPlugin\\src\\main\\jni\\Android.mk",
+    "E:\\AndroidStudioProjects\\1_FromGithub\\VirtualHook-master\\VirtualApp\\demoHookPlugin\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "D:\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\AndroidStudioProjects\\1_FromGithub\\VirtualHook-master\\VirtualApp\\demoHookPlugin\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\AndroidStudioProjects\\1_FromGithub\\VirtualHook-master\\VirtualApp\\demoHookPlugin\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dE:/AndroidStudioProjects/1_FromGithub/VirtualHook-master/VirtualApp/demoHookPlugin/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dE:\\AndroidStudioProjects\\1_FromGithub\\VirtualHook-master\\VirtualApp\\demoHookPlugin\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "libraries": {
+    "helloJni-release-x86": {
+      "buildCommand": "D:\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\AndroidStudioProjects\\1_FromGithub\\VirtualHook-master\\VirtualApp\\demoHookPlugin\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\AndroidStudioProjects\\1_FromGithub\\VirtualHook-master\\VirtualApp\\demoHookPlugin\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dE:/AndroidStudioProjects/1_FromGithub/VirtualHook-master/VirtualApp/demoHookPlugin/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dE:\\AndroidStudioProjects\\1_FromGithub\\VirtualHook-master\\VirtualApp\\demoHookPlugin\\build\\intermediates\\ndkBuild\\release\\lib E:/AndroidStudioProjects/1_FromGithub/VirtualHook-master/VirtualApp/demoHookPlugin/build/intermediates/ndkBuild/release/obj/local/x86/libhelloJni.so",
+      "toolchain": "toolchain-x86",
+      "abi": "x86",
+      "artifactName": "helloJni",
+      "files": [
+        {
+          "src": "E:\\AndroidStudioProjects\\1_FromGithub\\VirtualHook-master\\VirtualApp\\demoHookPlugin\\src\\main\\jni\\helloJni.c",
+          "flags": "\"-gcc-toolchain\" \"D:/Android/sdk/ndk-bundle/build//../toolchains/x86-4.9/prebuilt/windows-x86_64\" \"-target\" \"i686-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fPIC\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-IE:/AndroidStudioProjects/1_FromGithub/VirtualHook-master/VirtualApp/demoHookPlugin/src/main/jni\" \"-DANDROID\" \"-D__ANDROID_API__\u003d21\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-mstackrealign\" \"--sysroot\" \"D:/Android/sdk/ndk-bundle/build//../sysroot\" \"-isystem\" \"D:/Android/sdk/ndk-bundle/build//../sysroot/usr/include/i686-linux-android\""
+        }
+      ],
+      "output": "E:\\AndroidStudioProjects\\1_FromGithub\\VirtualHook-master\\VirtualApp\\demoHookPlugin\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86\\libhelloJni.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-x86": {
+      "cCompilerExecutable": "D:\\Android\\sdk\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}
